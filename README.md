@@ -42,3 +42,9 @@ public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerF
     // ...
 }
 ```
+
+The example above will result in the following headers being added to responses:
+
+    x-xss-protection: 1; mode=block
+    referrer-policy: strict-origin
+    content-security-policy: connect-src 'self' https://api.twitch.tv ; default-src 'self' ; font-src 'self' https://fonts.gstatic.com ; img-src 'self' https://static-cdn.jtvnw.net ; style-src 'self' https://fonts.googleapis.com
