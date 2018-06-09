@@ -1,6 +1,9 @@
 # Vivelin.AspNetCore.Headers
 ASP.NET Core middleware for fluently configuring response headers.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/ivae1lr38p908ntr?svg=true)](https://ci.appveyor.com/project/Vivelin/aspnetcoreheaders)
+
+
 ## Example usage
 
 ```csharp
