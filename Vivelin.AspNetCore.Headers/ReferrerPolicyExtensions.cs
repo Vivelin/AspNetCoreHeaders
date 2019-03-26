@@ -1,7 +1,7 @@
 ﻿namespace Vivelin.AspNetCore.Headers
 {
     /// <summary>
-    /// Provides a set of status methods for specifying a Referrer policy.
+    /// Provides a set of static methods for specifying a Referrer policy.
     /// </summary>
     public static class ReferrerPolicyExtensions
     {
